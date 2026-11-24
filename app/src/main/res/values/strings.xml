@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Advance Launcher</string>
+    <string name="brand_name">SAROTECH</string>
+    <string name="developer_credit">Developed by Prashant Latta</string>
+    <string name="accessibility_lock_description">Used only to lock the screen on your chosen Advance Launcher gesture. Reads zero screen content and collects no data.</string>
+</resources>

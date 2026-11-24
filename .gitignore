@@ -1,0 +1,14 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.cxx
+app/build/
+app/src/main/jniLibs/
+rust-core/target/
+*.keystore
+*.jks
+keystore.properties

@@ -1,0 +1,21 @@
+[package]
+name = "advance_core"
+version = "2.0.0"
+edition = "2021"
+authors = ["Prashant Latta <SAROTECH>"]
+description = "Memory-safe Rust core engine for Advance Launcher v2 by SAROTECH"
+
+[lib]
+name = "advance_core"
+crate-type = ["cdylib"]
+
+[dependencies]
+jni = "0.21"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+strip = true
